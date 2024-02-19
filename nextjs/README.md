@@ -1,4 +1,4 @@
-# nextjs
+## nextjs
 
 # next プロジェクト作成
 
