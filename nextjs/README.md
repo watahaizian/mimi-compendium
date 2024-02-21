@@ -8,5 +8,4 @@ npx create-next-app@latest
 
 pnpm dev
 
-package.json の scripts に以下を追加することで pnpm でのみインストール可能にする
-"preinstall": "npx only-allow pnpm"
+package.json の scripts に以下を追加することで pnpm でのみインストール可能にする  "preinstall": "npx only-allow pnpm"
