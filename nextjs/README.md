@@ -4,7 +4,9 @@
 
 npx create-next-app@latest
 
-
 ### next 開発環境起動
 
-npm run dev
+pnpm dev
+
+package.json の scripts に以下を追加することで pnpm のみ実行可能にする
+"preinstall": "npx only-allow pnpm"
