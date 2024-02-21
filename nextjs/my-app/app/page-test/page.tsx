@@ -1,5 +1,5 @@
-// appフォルダ内にフォルダを作成し、その中にファイルを作成すると、そのフォルダがURLとなる
+// appフォルダ内にフォルダを作成し、その中にpageファイルを作成すると、そのフォルダがURLとなる
 
-const page = () => <h1>Page Test</h1>;
+const Page = () => <h1>Page Test</h1>;
 
-export default page;
+export default Page;

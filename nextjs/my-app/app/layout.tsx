@@ -1,4 +1,6 @@
 // ここで指定したレイアウトは、全てのページに適用される
+// lang設定もここで行う
+
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
