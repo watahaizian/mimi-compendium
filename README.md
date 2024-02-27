@@ -1,3 +1,3 @@
-# mimi-compendium
+# runaku-compendium
 
 個人学習用のリポジトリ
