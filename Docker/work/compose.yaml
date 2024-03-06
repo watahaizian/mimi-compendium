@@ -1,7 +1,7 @@
 services:
   app:
     ports:
-      - "${APP_HOST_MACHINE_PORT}:8000"
+      - "${APP_HOST_MACHINE_PORT:-8000}:8000"
     volumes:
       - type: bind
         source: ./src
@@ -12,7 +12,7 @@ services:
     environment:
       - "MYSQL_ROOT_PASSWORD=${DB_ROOT_PASSWORD}"
       - "MYSQL_USER=${DB_USER}"
-      - "MYSQL_PASSWORD=${DB_PASSWORD}"
+      - "MYSQL_PASSWORD=${DB_PASSWORD?.envを見直してください}"
       - "MYSQL_DATABASE=${DB_DATABASE}"
       - TZ=Asia/Tokyo
     ports:
